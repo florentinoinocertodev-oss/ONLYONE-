@@ -4,5 +4,32 @@ dist/
 coverage/
 .DS_Store
 *.log
+
+# Environment files and credentials
 .env*
 !.env.example
+*.pem
+*.key
+*.cert
+
+# SQLite databases, journals, and WAL/SHM artifacts
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+*.db
+*.sqlite
+*.sqlite3
+*-wal
+*-shm
+*-journal
+!data/.gitkeep
+
+# Database backups, dumps, and archives
+backups/
+*.dump
+*.bak
+*.sql.gz
+
