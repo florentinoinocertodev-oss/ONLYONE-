@@ -1,0 +1,6 @@
+{
+  "summary":  "Revisão arquitetural profunda ONLYONE_ARCH_005 para a FASE 0, incorporando todas as 8 correções obrigatórias: hash de tokens de sessão (SHA-256), scrypt assíncrono com formato versionado e timingSafeEqual, análise de concorrência e limitações do SQLite com estratégia de migração para PostgreSQL, isolamento estrito nos serviços de domínio com testes de leitura/escrita/eliminação cruzada, auditoria sanitizada com triggers de imutabilidade, transações ACID com rollback integral, separação total dev/prod sem dependência de Vite em produção, plano de deployment e matriz de testes expandida.",
+  "updatedAt":  "2026-11-08T23:51:59.626596129Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
